@@ -44,8 +44,8 @@ The framework combines:
 **Figure 1 — ILP Assignment Solution**  
 <img src="images/ILP_assignment.png" alt="LIP" width="400px">
 
-**Figure 2 — AGA Assignment Solution**  
-<img src="images/GA_assignment.png" alt="AGA Assignment" width="400px">
+**Figure 2 — GA Assignment Solution**  
+<img src="images/GA_assignment.png" alt="GA Assignment" width="400px">
 
 **Figure 3 — AGA Routing Solution**  
 <img src="images/AGA_routing.png" alt="AGA Routing" width="400px">
