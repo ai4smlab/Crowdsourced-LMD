@@ -1,4 +1,4 @@
-# 🚚 Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery  
+## 🚚 Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery  
 
 **Authors:**  
 👤 *Mohammed Alromema*, 👤 *Osamah H. Hussein*, 👤 *Ahmed AlHanbli*, 👤 *Ahmed Azab*, 👤 *Alaa Khamis*  
@@ -6,7 +6,7 @@
 📧 *{g202113970, g202392790, ahmad.alhanbali, ahmed.azab, alaa.rashwan}@kfupm.edu.sa*  
 
 
-## 🧭 Project Overview  
+### 🧭 Project Overview  
 
 Crowdsourced last-mile delivery (LMD) platforms such as **Shgardi** connect independent couriers with delivery requests, providing scalability and flexibility.  
 This repository presents a **hybrid optimization framework** that integrates **machine learning** and **optimization algorithms** to improve courier–task allocation and routing efficiency in real-world conditions.  
@@ -17,7 +17,7 @@ The framework combines:
 - 🔹 **Metaheuristics:** *Simulated Annealing (SA)*, *Genetic Algorithm (GA)*, *Adaptive GA (AGA)*, and *Adaptive SA (ASA)* for scalable real-time solutions  
 
 
-## 🧠 Methodology Summary  
+### 🧠 Methodology Summary  
 
 1. **Acceptance Prediction (ML):**  
    - Trained on 6,210 labeled samples from 345 Saudi couriers.  
@@ -33,7 +33,7 @@ The framework combines:
    - Includes 5 couriers, 3 hubs, and 40 customer requests.  
 
 
-## 🗺️ Sample Results  
+### 🗺️ Sample Results  
 
 **Figure 1 — ILP Assignment Solution**  
 ![ILP Assignment Map](images/ILP_assignment.png)
@@ -47,7 +47,7 @@ The framework combines:
 > ILP yields highly structured optimal routes but takes longer computation time.  
 > GA achieves nearly the same performance in a fraction of the time.  
 
-## 📊 Comparative Performance Table  
+### 📊 Comparative Performance Table  
 
 | Metric | ILP | SA | GA | ASA | AGA |
 |:--|:--:|:--:|:--:|:--:|:--:|
@@ -60,14 +60,14 @@ The framework combines:
 
 > 🧾 *Adaptive Genetic Algorithm (AGA) reaches ILP-level optimality in 15% of the runtime.*
 
-## ⚙️ Data Description  
+### ⚙️ Data Description  
 
 | Dataset | Description |
 |:--|:--|
 | **data for term project 242.xlsx** | Training data for courier acceptance prediction (ML model). |
 | **3 centers 5 drivers and 40 customers...xlsx** | Geographic coordinates for couriers, customers, and centers used for routing and optimization. |
 
-## 💻 Code & Reproducibility  
+### 💻 Code & Reproducibility  
 
 The full pipeline, including ML model training, ILP, metaheuristics, and visualization, is implemented in Python.
 
@@ -78,7 +78,7 @@ The full pipeline, including ML model training, ILP, metaheuristics, and visuali
 `xgboost`, `scikit-learn`, `geopy`, `pulp`, `osmnx`, `networkx`, `folium`, `numpy`, `pandas`, `matplotlib`
 
 
-## 📈 Key Findings  
+### 📈 Key Findings  
 
 ✅ **ILP:** Optimal but computationally heavy (20.38 min).  
 ✅ **SA / GA:** Near-optimal, fast (5–3 min).  
@@ -86,7 +86,7 @@ The full pipeline, including ML model training, ILP, metaheuristics, and visuali
 ✅ **Hybrid model:** Integrating ML-driven acceptance prediction improves assignment quality, delivery reliability, and system scalability.  
 
 
-## 📚 Citation  
+### 📚 Citation  
 
 If you use this framework or datasets, please cite:  
 
@@ -95,7 +95,7 @@ If you use this framework or datasets, please cite:
 > King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia.  
 
 
-## 🏁 Acknowledgment  
+### 🏁 Acknowledgment  
 
 Research conducted at **King Fahd University of Petroleum and Minerals (KFUPM)**, supported by **Shgardi** operational data from Al-Khobar, Saudi Arabia.  
 
