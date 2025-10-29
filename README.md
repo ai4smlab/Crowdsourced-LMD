@@ -42,13 +42,13 @@ The framework combines:
 ### 🗺️ Sample Results  
 
 **Figure 1 — ILP Assignment Solution**  
-![ILP Assignment Map](images/ILP_assignment.png)
+<img src="images/ILP_assignment.png" alt="LIP" width="400px">
 
 **Figure 2 — AGA Assignment Solution**  
-![AGA Assignment Map](images/AGA_assignment.png)
+<img src="(images/AGA_assignment.png" alt="AGA" width="400px">
 
 **Figure 3 — AGA Routing Solution**  
-![AGA Routing Map](images/AGA_routing.png)
+<img src="(images/AGA_routing.png" alt="AGA" width="400px">
 
 > ILP yields highly structured optimal routes but takes longer computation time.  
 > GA achieves nearly the same performance in a fraction of the time.  
