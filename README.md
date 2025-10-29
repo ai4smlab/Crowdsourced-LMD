@@ -91,14 +91,23 @@ The full pipeline, including ML model training, ILP, metaheuristics, and visuali
 ✅ **AGA:** Achieves ILP-level accuracy in 3.1 min — **best trade-off** between quality and efficiency.  
 ✅ **Hybrid model:** Integrating ML-driven acceptance prediction improves assignment quality, delivery reliability, and system scalability.  
 
-
-### 📚 Citation  
+## 🔖 Citation
 
 If you use this framework or datasets, please cite:  
 
-> **Alromema, M., Hussein, O.H., AlHanbli, A., Azab, A., & Khamis, A. (2025).**  
-> *Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery.*  
-> King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia.  
+Plain text (IEEE style):
+
+Alromema, M., Hussein, O.H., AlHanbli, A., Azab, A., & Khamis, A., "Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery," submitted to 2026 IEEE International Conference on Smart Mobility.
+
+BibTeX:
+```
+@article{khan2025sdv,
+  title   = {Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery},
+  author  = {Alromema, M., Hussein, O.H., AlHanbli, A., Azab, A., & Khamis, A.},
+  journal = {Submitted to 2026 IEEE International Conference on Smart Mobility},
+  year    = {2025}
+}
+```
 
 
 ### 🏁 Acknowledgment  
