@@ -1,9 +1,14 @@
-## 🚚 Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery  
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ai4smlab/Crowdsourced-LMD/blob/main/LICENSE)
+![Last Commit](https://img.shields.io/github/last-commit/ai4smlab/Crowdsourced-LMD)
+![Repo Size](https://img.shields.io/github/repo-size/ai4smlab/Crowdsourced-LMD)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![GitHub Stars](https://img.shields.io/github/stars/ai4smlab/Crowdsourced-LMD?style=social)
 
-**Authors:**  
-👤 *Mohammed Alromema*, 👤 *Osamah H. Hussein*, 👤 *Ahmed AlHanbli*, 👤 *Ahmed Azab*, 👤 *Alaa Khamis*  
-📍 *Department of Industrial and Systems Engineering, King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia*  
-📧 *{g202113970, g202392790, ahmad.alhanbali, ahmed.azab, alaa.rashwan}@kfupm.edu.sa*  
+<div align="center">
+
+# Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery 
+
+Mohammed Alromema, Osamah H. Hussein, Ahmed AlHanbli, Ahmed Azab, Alaa Khamis
 
 
 ### 🧭 Project Overview  
