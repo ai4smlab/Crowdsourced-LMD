@@ -5,7 +5,6 @@
 📍 *Department of Industrial and Systems Engineering, King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia*  
 📧 *{g202113970, g202392790, ahmad.alhanbali, ahmed.azab, alaa.rashwan}@kfupm.edu.sa*  
 
----
 
 ## 🧭 Project Overview  
 
@@ -17,7 +16,6 @@ The framework combines:
 - 🔹 **Integer Linear Programming (ILP)** for exact optimization  
 - 🔹 **Metaheuristics:** *Simulated Annealing (SA)*, *Genetic Algorithm (GA)*, *Adaptive GA (AGA)*, and *Adaptive SA (ASA)* for scalable real-time solutions  
 
----
 
 ## 🧠 Methodology Summary  
 
@@ -34,23 +32,20 @@ The framework combines:
    - Real-world operational data from **Shgardi (Al-Khobar, Saudi Arabia)**.  
    - Includes 5 couriers, 3 hubs, and 40 customer requests.  
 
----
 
+## 🗺️ Sample Results  
 
----
+**Figure 1 — ILP Assignment Solution**  
+![ILP Assignment Map](images/ILP_assignment.png)
 
-## 🗺️ Visualization Results  
+**Figure 2 — AGA Assignment Solution**  
+![AGA Assignment Map](images/AGA_assignment.png)
 
-**Figure 1 — ILP Assignment Solution (Exact Optimization)**  
-![ILP Assignment Map](docs/fig_ILP_map.png)
-
-**Figure 2 — GA Assignment Solution (Metaheuristic Optimization)**  
-![GA Assignment Map](docs/fig_GA_map.png)
+**Figure 3 — AGA Routing Solution**  
+![AGA Routing Map](images/AGA_routing.png)
 
 > ILP yields highly structured optimal routes but takes longer computation time.  
 > GA achieves nearly the same performance in a fraction of the time.  
-
----
 
 ## 📊 Comparative Performance Table  
 
@@ -65,16 +60,12 @@ The framework combines:
 
 > 🧾 *Adaptive Genetic Algorithm (AGA) reaches ILP-level optimality in 15% of the runtime.*
 
----
-
 ## ⚙️ Data Description  
 
 | Dataset | Description |
 |:--|:--|
 | **data for term project 242.xlsx** | Training data for courier acceptance prediction (ML model). |
 | **3 centers 5 drivers and 40 customers...xlsx** | Geographic coordinates for couriers, customers, and centers used for routing and optimization. |
-
----
 
 ## 💻 Code & Reproducibility  
 
@@ -86,7 +77,6 @@ The full pipeline, including ML model training, ILP, metaheuristics, and visuali
 📦 **Dependencies:**  
 `xgboost`, `scikit-learn`, `geopy`, `pulp`, `osmnx`, `networkx`, `folium`, `numpy`, `pandas`, `matplotlib`
 
----
 
 ## 📈 Key Findings  
 
@@ -95,13 +85,6 @@ The full pipeline, including ML model training, ILP, metaheuristics, and visuali
 ✅ **AGA:** Achieves ILP-level accuracy in 3.1 min — **best trade-off** between quality and efficiency.  
 ✅ **Hybrid model:** Integrating ML-driven acceptance prediction improves assignment quality, delivery reliability, and system scalability.  
 
----
-
-## 📂 Repository Structure  
-
-
-
----
 
 ## 📚 Citation  
 
@@ -111,34 +94,11 @@ If you use this framework or datasets, please cite:
 > *Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery.*  
 > King Fahd University of Petroleum and Minerals (KFUPM), Dhahran, Saudi Arabia.  
 
----
-
-## 🔗 References  
-
-1. O. Oloko, *Dynamic Route Optimization in Last-Mile Delivery Using Predictive Analytics*, *European Journal of Logistics*, 2024.  
-2. J. Zhang, *Pickup and Delivery Planning for Crowdsourced Freight Delivery Routing Problem*, *PLOS ONE*, 2025.  
-3. Triantali et al., *Probabilistic Crowdshipping Model for Last-Mile Delivery*, *Int. J. Systems Science: Operations & Logistics*, 2025.  
-4. M. Alromema et al., *Supplementary Materials*, [Google Drive Folder](https://drive.google.com/drive/u/0/folders/1JqLrYHSZtybq3ofG3gZB9tELmBd-8VG7).  
-
----
-
-## 🧭 Future Work  
-
-🚀 Expand to **multi-objective optimization** (e.g., cost + emissions).  
-📡 Enable **real-time adaptive learning** using live courier data.  
-🏙️ Deploy across **multiple Saudi cities** to evaluate scalability.  
-
----
 
 ## 🏁 Acknowledgment  
 
 Research conducted at **King Fahd University of Petroleum and Minerals (KFUPM)**, supported by **Shgardi** operational data from Al-Khobar, Saudi Arabia.  
 
----
 
-## 🧰 License  
-
-This project is released under the **MIT License**.  
-See the [LICENSE](LICENSE) file for details.
 
 
