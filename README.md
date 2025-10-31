@@ -103,7 +103,7 @@ BibTeX:
 ```
 @article{khan2025sdv,
   title   = {Hybrid Optimization Framework for Crowdsourced Last-Mile Delivery},
-  author  = {Alromema, M., Hussein, O.H., AlHanbli, A., Azab, A., & Khamis, A.},
+  author  = {Alromema, M., Hussein, O.H., Al-Hanbli, A., Azab, A., & Khamis, A.},
   journal = {Submitted to 2026 IEEE International Conference on Smart Mobility},
   year    = {2025}
 }
